@@ -1,0 +1,83 @@
+body{
+	background-image: url(https://media.contentapi.ea.com/content/dam/ea/fc/fc-24/common/gameplay/fc24-pre-order-founders.jpg.adapt.320w.jpg);
+	background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+	min-height:100vh;
+}
+h1{
+	color:#fff;	
+	text-transform:uppercase;
+    font-size: 23px;
+    margin: -50px 0 80px 0;
+    display: block;
+    text-align: center;
+}
+
+form{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.89);
+	border-radius:3px;
+	padding:70px 100px;
+}
+div{
+	position:relative;
+	margin-bottom:25px;
+}
+.div label{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:16px;
+	color:#fff;	
+	transition: all 0.5s ease-in-out;
+}
+.div input{ 
+  border:0;
+  border-bottom:1px solid #555;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:#fff;
+}
+.div input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #e74c3c;	
+}
+button{
+	color:#fff;
+	background-color:#e74c3c;
+	outline: none;
+    border: 0;
+    color: #fff;
+    margin-left: 3em;
+	padding:10px 20px;
+	text-transform:uppercase;
+	margin-top:50px;
+	border-radius:2px;
+	cursor:pointer;
+	position:relative;
+}
+
+div input:focus ~ label,
+div input:valid ~ label{
+	top:-12px;
+	font-size:12px;
+	
+}
+input {
+    border: 0;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #000000, #ffffff, #2d4fe3, #08cb15 ) 47% 0%;
+}
+
+select {
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #000000, #ffffff, #2d4fe3, #08cb15 ) 47% 0%;
+}
